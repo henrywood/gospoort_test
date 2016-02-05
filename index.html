@@ -1,0 +1,159 @@
+<!DOCTYPE>
+<html class="no-js" lang="">
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="x-ua-compatible" content="ie=edge">
+				<title>TEST</title>
+				<!--[if (gt IE 8) | (IEMobile)]><!-->
+				<link rel="stylesheet" href="./assets/stylesheets/unsemantic-grid-responsive.css" />
+				<!--<![endif]-->
+				<!--[if (lt IE 9) & (!IEMobile)]>
+					<link rel="stylesheet" href="./assets/stylesheets/ie.css?1389034275" />
+				<![endif]-->
+				<meta name="description" content="">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+
+				<link rel="apple-touch-icon" href="apple-touch-icon.png">
+				<!-- Place favicon.ico in the root directory -->
+
+				<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+				<link rel="stylesheet" type="text/css" href="./assets/stylesheets/rangeslider.css">
+				<link rel="stylesheet" type="text/css" href="./assets/stylesheets/jquery.modal.css">
+				<link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css">
+
+				<!--[if lt IE 9]>
+				<script src="./assets/javascripts/html5.js"></script>
+				<![endif]-->
+		</head>
+<body>
+	<label for="show-menu" class="show-menu"><span>&#9776;</span></label>
+	<input type="checkbox" id="show-menu" role="button">
+
+	<!-- TOPMENU -->
+	<div class="grid-container clearfix">
+	<div id="topmenu">
+		<ul id="tmenu">
+			<li><a href="#">Home</a></li>
+			<li>
+				<a href="#">About</a>
+				<ul class="hidden">
+					<li><a href="#">Who We Are</a></li><li><a href="#">What We Do</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Features</a>
+				<ul class="hidden">
+					<li><a href="#">Sub item 1</a></li><li><a href="#">Sub item 2</a></li><li><a href="#">Sub item 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Testimonials</a></li><li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	</div>
+	<div class="clear"></div>
+
+	<!-- TOPBAR -->
+	<div id="topbar">
+		<h3 class="center-text">Find trainers to match your needs</h1>
+	</div>
+
+	<!-- CONTENT -->
+
+	<div class="grid-container clearfix">
+		<div class="grid-100 mobile-grid-100">
+			<section id="resultinfo">
+				<h3>SEARCH</h3> <span class="inlinebullet">&bull;</span> <span id="resultcount">35 Coaches</span> match your search
+			</section>
+		</div>
+		<div style="float: right;" class="grid-30 mobile-grid-100">
+			<section>
+				<div> 
+					<div id="sidebar" class="toggled">
+
+						<span class="toggle hide-on-desktop"></span>
+
+						<!-- PRICE SLIDER -->
+
+						<h4>Max price/hour</h4>
+
+						<div id="maxprice"></div>
+
+						<input id="maxpriceslider" type="range"
+   							min="0"             
+    						max="100"
+    						step="1"
+    						value="50"
+    						data-orientation="horizontal">
+
+    						<br>
+
+    						<h4>Location</h4>
+
+    						<div id="location">
+	    						<div class="inputcontainer first">
+	    							<input class="location" type="checkbox" id="indoor">
+	    							<label for="indoor"><span>Indoor</span></label>
+	    						</div>
+	    						<div class="inputcontainer last">
+		    						<input class="location" type="checkbox" id="outdoor">
+	    							<label for="outdoor"><span>Outdoor</span></label>
+	    						</div>
+	    					</div>
+    						
+    						<br>
+    						<hr>
+
+    						<h4>Sport types</h4>
+
+  							<!-- CONTAINER FOR SPORT TYPES -->
+
+    						<div id="disciplinecontainer">
+  
+      						</div>
+
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="grid-70 mobile-grid-100" id="outercontainer">
+			<div class="grid-50 mobile-grid-100 resultbox">
+				<section>
+				</section>
+			</div>
+	   	</div>
+	</div>
+
+	<!-- FOOTER -->
+	<section>
+		<div class="footer">
+			<div class="center-block">
+				<ul>
+					<li><a href="#">Overview</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookie policy</a></li>
+					<li><a href="#">Terms</a></li>
+				</ul>
+			</div>		
+			<p class="center-text">
+				2016 company name. All rights reserved
+			</p>
+		</div>
+	</section>
+
+	<!-- SCRIPTS -->
+	<!--[if lt IE 9]>
+		<script src="./assets/javascripts/jquery.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="./assets/javascripts/jquery.js"></script>
+	<!--<![endif]-->
+
+	<!--<script src="./assets/javascripts/classlist.js"></script>-->
+	<script src="./assets/javascripts/sticky.js"></script>
+	<script src="./assets/javascripts/rangeslider.js"></script>
+	<script src="./assets/javascripts/jquery.lazyload-any.min.js"></script>
+	<script src="./assets/javascripts/jquery.modal.js"></script>
+	<script src="./assets/javascripts/main.js"></script>
+
+</body>
+</html>
